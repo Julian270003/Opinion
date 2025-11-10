@@ -2,10 +2,10 @@
 session_start();
 
 class Database {
-    private $host = "127.0.0.1";
-    private $db_name = "reseñas_libros";
-    private $username = "root";
-    private $password = "v8yra1sz4";
+    private $host = "db.fr-pari1.bengt.wasmernet.com";
+    private $db_name = "dbiHJcPu6Vc5kFxUKnmprD72";
+    private $username = "251315e57bac80003be86b9c305e";
+    private $password = "06912513-15e6-7816-8000-ac9797424c1e";
     public $conn;
 
     public function getConnection() {
@@ -456,4 +456,5 @@ function mostrarMensaje() {
         unset($_SESSION['mensaje']);
     }
 }
+
 ?>
